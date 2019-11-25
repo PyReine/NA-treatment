@@ -4,4 +4,5 @@ df.isna().sum()
 df.dropna(axis=1, how='all')
 #Drop the columns where any of the elements is nan
 df.dropna(axis=1, how='any')
+#Show rows with the field NA
 df[df['Defaulted'].isna()]
