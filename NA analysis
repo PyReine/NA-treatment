@@ -1,0 +1,7 @@
+X=np.nan_to_num(X)
+df.isna().sum()
+#Drop the columns where all elements are nan:
+df.dropna(axis=1, how='all')
+#Drop the columns where any of the elements is nan
+df.dropna(axis=1, how='any')
+
